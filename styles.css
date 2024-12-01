@@ -2,6 +2,7 @@ body {
     background-color: black;
 }
 
+/*caja de contenido*/
 .container {
     background-color: white;
     color: black;
@@ -13,6 +14,7 @@ body {
     margin-top: 70px;
 }
 
+/*seccion name usuario*/
 .post-header {
     display: flex;
     padding-left: 10px;
