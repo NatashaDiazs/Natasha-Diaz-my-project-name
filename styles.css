@@ -6,7 +6,7 @@ body {
     background-color: white;
     color: black;
     font-family: "roboto";
-    width: 600px;
+    width: 500px;
     margin: auto;
     justify-content: center;
     align-items: center;
@@ -14,9 +14,20 @@ body {
 
 .post-header {
     display: flex;
+    padding-left: 10px;
+    
 }
 
 img {
-    width: 600px;
+    width: 500px;
+    height: 500px;
+}
 
+.icon {
+    width: 20px;
+    height: 50px;
+}
+
+.name {
+    display: inline-block;
 }
