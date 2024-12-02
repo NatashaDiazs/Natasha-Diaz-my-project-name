@@ -17,13 +17,20 @@ body {
 /*seccion name usuario*/
 .post-header {
     display: flex;
-    padding-left: 10px;
-  
+    padding: 9px 10px;
+}
+
+.name {
+    margin-left: 10px;
+    line-height: 0.2;
+    padding-right: 310px;
 }
 
 .icon {
     width: 20px;
-    height: 60px;
+    height: 55px;
+    transform: scale(1.6);
+    margin: 0 5px;
 }
 
 /*Seccion imagen*/
@@ -38,6 +45,7 @@ img {
     display: flex;
     gap: 20px;
     margin-top: 10px;
+     
 }
 
 .post p:nth-last-child(1) {
