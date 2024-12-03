@@ -21,14 +21,21 @@ body {
 
 .name {
     margin-left: 10px;
-    padding-right: 320px;
+    padding-right: 20px;
     line-height: 0.2;
+}
+
+div [class="post-header"] :nth-child(3) {
+    transform: scale(1.1);
+    padding-right: 300px;
+    padding-top: 28px;
+    color: rgba(12, 85, 243, 0.911);
 }
 
 .icon {
     width: 20px;
     height: 55px;
-    transform: scale(1.6);
+    transform: scale(1.7);
     margin: 0 5px;
 }
 
@@ -41,20 +48,25 @@ img {
 
 /*div inferior*/
 .post {
-    padding: 8px 15px;
-    padding-left: 20px;
+    padding: 10px 15px;
 }
 
 .ion {
     display: flex;
     gap: 4px;
     transform: scale(1.9);
-    flex-direction: row;
     font-weight: 5000;
-    padding: 9px 1px 10px 110px;
+    padding: 9px 1px 5px 110px;
     --ionicon-stroke-width : 40px;
+    font-size: 15px;
 }
 
-.ion :nth-child(3){
-    margin-right: 170px;
+div [class="ion"] :nth-child(3) {
+    font-size: 9px;
+    font-weight: 5000;
+    margin-top: 3px;
+}
+
+.ion :nth-child(4){
+    margin-right: 165px;
 }
