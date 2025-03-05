@@ -25,7 +25,7 @@ body {
     line-height: 0.2;
 }
 
-div [class="post-header"] :nth-child(3) {
+.post-header :nth-child(3) {
     transform: scale(1.1);
     padding-right: 300px;
     padding-top: 28px;
@@ -61,7 +61,7 @@ img {
     font-size: 15px;
 }
 
-div [class="ion"] :nth-child(3) {
+.ion :nth-child(3) {
     font-size: 9px;
     font-weight: 5000;
     margin-top: 3px;
@@ -70,3 +70,5 @@ div [class="ion"] :nth-child(3) {
 .ion :nth-child(4){
     margin-right: 165px;
 }
+
+
